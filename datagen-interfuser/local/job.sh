@@ -4,8 +4,8 @@ source ../../common/utils.sh
 
 export CARLA_IMAGE="mathiaswold/carla:0.9.14"
 export CARLA_VERSION=0.9.14
-export INTERFUSER_COMMIT=$(get_commit_hash_interfuser "0.9.14")
-
+#export INTERFUSER_COMMIT=$(get_commit_hash_interfuser "0.9.14")
+export INTERFUSER_COMMIT="613cedcf523345b177939125c34cf3286323032e"
 SAVE_ROOT=$1; shift
 ROUTELINE=$1; shift
 

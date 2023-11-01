@@ -1,17 +1,6 @@
 ARG CARLA_IMAGE=carlasim/carla:0.9.14
 FROM ${CARLA_IMAGE}
 
-ARG DISPLAY
-ARG QT_X11_NO_MITSHM
-ARG NVIDIA_DRIVER_CAPABILITIES
-ARG XAUTHORITY 
-
-ENV DISPLAY=${DISPLAY}
-ENV QT_X11_NO_MITSHM=1
-ENV NVIDIA_DRIVER_CAPABILITIES=${NVIDIA_DRIVER_CAPABILITIES} 
-ENV XAUTHORITY=${XAUTHORITY}
-
-
 USER root
 RUN apt-key del 7fa2af80
 RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
@@ -25,7 +14,7 @@ RUN ./ImportAssets.sh
 
 USER carla
 
-CMD ["/bin/bash", "CarlaUE4.sh", "-vulkan"]
+CMD ["/bin/bash", "CarlaUE4.sh", "-vulkan", "-RenderOffScreen"]
 
 HEALTHCHECK --interval=1s --timeout=1s --start-period=5s --retries=30 \
     CMD grep -qi ':07d0' /proc/1/net/tcp

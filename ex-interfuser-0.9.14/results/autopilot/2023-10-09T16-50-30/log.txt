@@ -1,0 +1,1031 @@
+Starting at 2023-10-09 15:06:19
+EVALUATION: town05
+ROUTES: leaderboard/data/evaluation_routes/routes_town05_long.xml
+SCENARIOS: leaderboard/data/scenarios/town05_all_scenarios.json
+CHECKPOINT_ENDPOINT: results/town05.json
+
+Environment:
+ACTOR_AMOUNT=town
+CARLA_ROOT=carla
+CARLA_SERVER=carla/CarlaUE4.sh
+CHALLENGE_TRACK_CODENAME=MAP
+CHECKPOINT_ENDPOINT=results/town05.json
+CONDA_DEFAULT_ENV=interfuser
+CONDA_EXE=/opt/conda/bin/conda
+CONDA_PREFIX=/opt/conda/envs/interfuser
+CONDA_PREFIX_1=/opt/conda
+CONDA_PROMPT_MODIFIER=(interfuser) 
+CONDA_PYTHON_EXE=/opt/conda/bin/python
+CONDA_ROOT=/opt/conda
+CONDA_SHLVL=2
+CUDA_VERSION=11.3.1
+CUDA_VISIBLE_DEVICES=0
+DEBUG_CHALLENGE=0
+EVALUATION=town05
+HOME=/root
+HOSTNAME=8d7c9e74953b
+LC_CTYPE=C.UTF-8
+LD_LIBRARY_PATH=/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+LEADERBOARD_ROOT=leaderboard
+NCCL_VERSION=2.9.9-1
+NVARCH=x86_64
+NVIDIA_DRIVER_CAPABILITIES=compute,utility
+NVIDIA_PRODUCT_NAME=CUDA
+NVIDIA_REQUIRE_CUDA=cuda>=11.3 brand=tesla,driver>=418,driver<419 driver>=450
+NVIDIA_VISIBLE_DEVICES=0
+NV_CUDA_COMPAT_PACKAGE=cuda-compat-11-3
+NV_CUDA_CUDART_VERSION=11.3.109-1
+NV_CUDA_LIB_VERSION=11.3.1-1
+NV_CUDNN_PACKAGE=libcudnn8=8.2.0.53-1+cuda11.3
+NV_CUDNN_PACKAGE_NAME=libcudnn8
+NV_CUDNN_VERSION=8.2.0.53
+NV_LIBCUBLAS_PACKAGE=libcublas-11-3=11.5.1.109-1
+NV_LIBCUBLAS_PACKAGE_NAME=libcublas-11-3
+NV_LIBCUBLAS_VERSION=11.5.1.109-1
+NV_LIBCUSPARSE_VERSION=11.6.0.109-1
+NV_LIBNCCL_PACKAGE=libnccl2=2.9.9-1+cuda11.3
+NV_LIBNCCL_PACKAGE_NAME=libnccl2
+NV_LIBNCCL_PACKAGE_VERSION=2.9.9-1
+NV_LIBNPP_PACKAGE=libnpp-11-3=11.3.3.95-1
+NV_LIBNPP_VERSION=11.3.3.95-1
+NV_NVTX_VERSION=11.3.109-1
+PATH=/opt/conda/envs/interfuser/bin:/opt/conda/condabin:/opt/conda/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PORT=2000
+PWD=/interfuser
+PYTHONPATH=:carla/PythonAPI:carla/PythonAPI/carla:carla/PythonAPI/carla/dist/carla-0.9.14-py3.7-linux-x86_64.egg:leaderboard:leaderboard/team_code:scenario_runner
+PYTHONUNBUFFERED=1
+REPETITIONS=1
+RESUME=True
+ROUTES=leaderboard/data/evaluation_routes/routes_town05_long.xml
+SCENARIOS=leaderboard/data/scenarios/town05_all_scenarios.json
+SDL_VIDEODRIVER=dummy
+SHLVL=2
+TEAM_AGENT=leaderboard/team_code/auto_pilot.py
+TEAM_CONFIG=leaderboard/team_code/interfuser_config.py
+TM_PORT=2500
+_=/usr/bin/env
+_CE_CONDA=
+_CE_M=
+---------------------
+
+leaderboard/leaderboard/leaderboard_evaluator.py:25: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  import pkg_resources
+leaderboard/leaderboard/leaderboard_evaluator.py:93: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(dist.version) < LooseVersion('0.9.14'):
+
+[1m========= Preparing RouteScenario_16 (repetition 0) =========
+> Setting up the agent[0m
+{}
+10
+[1m> Loading the world[0m
+load
+load
+load
+load
+load
+load
+load
+Actor amount: 120
+[1m> Running the route[0m
+1148
+destory hazard actor: id: 222, type: vehicle.diamondback.century
+destory hazard actor: id: 199, type: vehicle.diamondback.century
+destory hazard actor: id: 193, type: vehicle.diamondback.century
+destory hazard actor: id: 166, type: vehicle.diamondback.century
+destory hazard actor: id: 139, type: vehicle.diamondback.century
+destory hazard actor: id: 323, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 257, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 245, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 334, type: vehicle.ford.crown
+destory hazard actor: id: 328, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 246, type: vehicle.citroen.c3
+destory hazard actor: id: 266, type: vehicle.audi.etron
+destory hazard actor: id: 340, type: vehicle.mercedes.coupe
+destory hazard actor: id: 241, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 293, type: vehicle.ford.mustang
+destory hazard actor: id: 348, type: vehicle.audi.a2
+destory hazard actor: id: 311, type: vehicle.kawasaki.ninja
+destory hazard actor: id: 277, type: vehicle.diamondback.century
+destory hazard actor: id: 290, type: vehicle.vespa.zx125
+ERROR: failed to destroy actor 202 : unable to destroy actor: not found 
+destory hazard actor: id: 250, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 294, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 344, type: vehicle.vespa.zx125
+destory hazard actor: id: 258, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 300, type: vehicle.dodge.charger_police
+destory hazard actor: id: 329, type: vehicle.dodge.charger_police
+destory hazard actor: id: 305, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 291, type: vehicle.citroen.c3
+destory hazard actor: id: 336, type: vehicle.ford.crown
+destory hazard actor: id: 233, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 341, type: vehicle.micro.microlino
+destory hazard actor: id: 286, type: vehicle.yamaha.yzf
+destory hazard actor: id: 283, type: vehicle.audi.etron
+destory hazard actor: id: 320, type: vehicle.dodge.charger_2020
+destory hazard actor: id: 234, type: vehicle.ford.mustang
+destory hazard actor: id: 346, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 321, type: vehicle.bmw.grandtourer
+destory hazard actor: id: 318, type: vehicle.mercedes.coupe
+destory hazard actor: id: 330, type: vehicle.volkswagen.t2
+destory hazard actor: id: 272, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 244, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 292, type: vehicle.vespa.zx125
+destory hazard actor: id: 279, type: vehicle.seat.leon
+destory hazard actor: id: 289, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 287, type: vehicle.tesla.model3
+destory hazard actor: id: 342, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 261, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 351, type: vehicle.chevrolet.impala
+destory hazard actor: id: 299, type: vehicle.bh.crossbike
+destory hazard actor: id: 303, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 338, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 288, type: vehicle.citroen.c3
+destory hazard actor: id: 315, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 254, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 282, type: vehicle.yamaha.yzf
+destory hazard actor: id: 322, type: vehicle.nissan.patrol
+destory hazard actor: id: 268, type: vehicle.audi.tt
+destory hazard actor: id: 248, type: vehicle.chevrolet.impala
+destory hazard actor: id: 317, type: vehicle.seat.leon
+destory hazard actor: id: 252, type: vehicle.audi.a2
+destory hazard actor: id: 238, type: vehicle.seat.leon
+destory hazard actor: id: 333, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 350, type: vehicle.dodge.charger_police
+destory hazard actor: id: 249, type: vehicle.diamondback.century
+destory hazard actor: id: 304, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 265, type: vehicle.yamaha.yzf
+destory hazard actor: id: 335, type: vehicle.tesla.model3
+destory hazard actor: id: 275, type: vehicle.ford.crown
+destory hazard actor: id: 324, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 280, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 259, type: vehicle.audi.a2
+destory hazard actor: id: 301, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 271, type: vehicle.vespa.zx125
+destory hazard actor: id: 281, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 256, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 345, type: vehicle.audi.tt
+destory hazard actor: id: 232, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 313, type: vehicle.ford.crown
+destory hazard actor: id: 312, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 284, type: vehicle.audi.tt
+destory hazard actor: id: 262, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 247, type: vehicle.ford.crown
+destory hazard actor: id: 307, type: vehicle.nissan.micra
+destory hazard actor: id: 332, type: vehicle.tesla.model3
+destory hazard actor: id: 239, type: vehicle.harley-davidson.low_rider
+destory hazard actor: id: 276, type: vehicle.chevrolet.impala
+destory hazard actor: id: 308, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 273, type: vehicle.micro.microlino
+destory hazard actor: id: 316, type: vehicle.nissan.micra
+destory hazard actor: id: 337, type: vehicle.diamondback.century
+destory hazard actor: id: 235, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 267, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 242, type: vehicle.mini.cooper_s
+destory hazard actor: id: 306, type: vehicle.lincoln.mkz_2020
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_16 (repetition 0) ------ [92mSUCCESS[0m [1m=========[0m
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-10-09 15:08:48 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-10-09 15:21:20 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 752.8s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 355.85s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.473               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %   │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ [92mSUCCESS[0m │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ [92mSUCCESS[0m │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+ERROR: failed to destroy actor 232 : unable to destroy actor: not found 
+WARNING: attempting to destroy an actor that is already dead: Actor 233 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 234 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 235 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 238 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 239 (vehicle.harley-davidson.low_rider) 
+WARNING: attempting to destroy an actor that is already dead: Actor 241 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 242 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 244 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 245 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 246 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 247 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 248 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 249 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 250 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 252 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 254 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 256 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 257 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 258 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 259 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 261 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 262 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 265 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 266 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 267 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 268 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 271 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 272 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 273 (vehicle.micro.microlino) 
+WARNING: attempting to destroy an actor that is already dead: Actor 275 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 276 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 277 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 279 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 280 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 281 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 282 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 283 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 284 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 286 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 287 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 288 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 289 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 290 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 291 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 292 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 293 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 294 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 299 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 300 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 301 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 303 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 304 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 305 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 306 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 307 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 308 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 311 (vehicle.kawasaki.ninja) 
+WARNING: attempting to destroy an actor that is already dead: Actor 312 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 313 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 315 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 316 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 317 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 318 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 320 (vehicle.dodge.charger_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 321 (vehicle.bmw.grandtourer) 
+WARNING: attempting to destroy an actor that is already dead: Actor 322 (vehicle.nissan.patrol) 
+WARNING: attempting to destroy an actor that is already dead: Actor 323 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 324 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 328 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 329 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 330 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 332 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 333 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 334 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 335 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 336 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 337 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 338 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 340 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 341 (vehicle.micro.microlino) 
+WARNING: attempting to destroy an actor that is already dead: Actor 342 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 344 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 345 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 346 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 348 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 350 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 351 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 139 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 166 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 193 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 199 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 222 (vehicle.diamondback.century) 
+
+[1m========= Preparing RouteScenario_17 (repetition 0) =========
+> Setting up the agent[0m
+{}
+10
+[1m> Loading the world[0m
+load
+load
+load
+load
+load
+load
+load
+Actor amount: 120
+[1m> Running the route[0m
+880
+destory hazard actor: id: 520, type: vehicle.diamondback.century
+destory hazard actor: id: 497, type: vehicle.diamondback.century
+destory hazard actor: id: 487, type: vehicle.diamondback.century
+destory hazard actor: id: 483, type: vehicle.diamondback.century
+destory hazard actor: id: 480, type: vehicle.diamondback.century
+destory hazard actor: id: 602, type: vehicle.dodge.charger_police
+destory hazard actor: id: 554, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 527, type: vehicle.ford.mustang
+destory hazard actor: id: 563, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 587, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 597, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 616, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 604, type: vehicle.kawasaki.ninja
+destory hazard actor: id: 546, type: vehicle.harley-davidson.low_rider
+destory hazard actor: id: 612, type: vehicle.mini.cooper_s
+destory hazard actor: id: 528, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 536, type: vehicle.seat.leon
+destory hazard actor: id: 572, type: vehicle.seat.leon
+destory hazard actor: id: 636, type: vehicle.ford.crown
+destory hazard actor: id: 543, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 530, type: vehicle.volkswagen.t2
+destory hazard actor: id: 569, type: vehicle.chevrolet.impala
+destory hazard actor: id: 611, type: vehicle.mercedes.coupe
+destory hazard actor: id: 584, type: vehicle.citroen.c3
+destory hazard actor: id: 606, type: vehicle.ford.crown
+destory hazard actor: id: 571, type: vehicle.audi.etron
+destory hazard actor: id: 544, type: vehicle.mini.cooper_s
+destory hazard actor: id: 626, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 598, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 535, type: vehicle.mini.cooper_s
+destory hazard actor: id: 609, type: vehicle.nissan.micra
+destory hazard actor: id: 633, type: vehicle.mercedes.coupe
+destory hazard actor: id: 594, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 625, type: vehicle.tesla.model3
+destory hazard actor: id: 643, type: vehicle.dodge.charger_police
+destory hazard actor: id: 583, type: vehicle.vespa.zx125
+destory hazard actor: id: 586, type: vehicle.ford.mustang
+destory hazard actor: id: 553, type: vehicle.diamondback.century
+destory hazard actor: id: 581, type: vehicle.citroen.c3
+destory hazard actor: id: 568, type: vehicle.ford.crown
+destory hazard actor: id: 615, type: vehicle.nissan.patrol
+destory hazard actor: id: 555, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 628, type: vehicle.tesla.model3
+destory hazard actor: id: 591, type: vehicle.bh.crossbike
+destory hazard actor: id: 550, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 645, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 644, type: vehicle.chevrolet.impala
+destory hazard actor: id: 561, type: vehicle.audi.tt
+destory hazard actor: id: 605, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 576, type: vehicle.audi.etron
+destory hazard actor: id: 617, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 614, type: vehicle.bmw.grandtourer
+destory hazard actor: id: 578, type: vehicle.dodge.charger_police
+destory hazard actor: id: 538, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 623, type: vehicle.volkswagen.t2
+destory hazard actor: id: 570, type: vehicle.diamondback.century
+destory hazard actor: id: 619, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 552, type: vehicle.audi.a2
+destory hazard actor: id: 548, type: vehicle.volkswagen.t2_2021
+destory hazard actor: id: 635, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 603, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 588, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 624, type: vehicle.toyota.prius
+destory hazard actor: id: 540, type: vehicle.ford.crown
+destory hazard actor: id: 610, type: vehicle.seat.leon
+destory hazard actor: id: 630, type: vehicle.diamondback.century
+destory hazard actor: id: 631, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 585, type: vehicle.vespa.zx125
+destory hazard actor: id: 593, type: vehicle.dodge.charger_police
+destory hazard actor: id: 592, type: vehicle.bh.crossbike
+destory hazard actor: id: 551, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 595, type: vehicle.yamaha.yzf
+destory hazard actor: id: 562, type: vehicle.bh.crossbike
+destory hazard actor: id: 542, type: vehicle.diamondback.century
+destory hazard actor: id: 539, type: vehicle.citroen.c3
+destory hazard actor: id: 531, type: vehicle.seat.leon
+destory hazard actor: id: 575, type: vehicle.yamaha.yzf
+destory hazard actor: id: 574, type: vehicle.mercedes.sprinter
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_17 (repetition 0) ------ [92mSUCCESS[0m [1m=========[0m
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-10-09 15:23:08 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-10-09 15:30:46 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 458.67s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 212.1s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.462               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %   │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ [92mSUCCESS[0m │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ [92mSUCCESS[0m │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+ERROR: failed to destroy actor 527 : unable to destroy actor: not found 
+WARNING: attempting to destroy an actor that is already dead: Actor 528 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 530 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 531 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 535 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 536 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 538 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 539 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 540 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 542 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 543 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 544 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 546 (vehicle.harley-davidson.low_rider) 
+WARNING: attempting to destroy an actor that is already dead: Actor 548 (vehicle.volkswagen.t2_2021) 
+WARNING: attempting to destroy an actor that is already dead: Actor 550 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 551 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 552 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 553 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 554 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 555 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 561 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 562 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 563 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 568 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 569 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 570 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 571 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 572 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 574 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 575 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 576 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 578 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 581 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 583 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 584 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 585 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 586 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 587 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 588 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 591 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 592 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 593 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 594 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 595 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 597 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 598 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 602 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 603 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 604 (vehicle.kawasaki.ninja) 
+WARNING: attempting to destroy an actor that is already dead: Actor 605 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 606 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 609 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 610 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 611 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 612 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 614 (vehicle.bmw.grandtourer) 
+WARNING: attempting to destroy an actor that is already dead: Actor 615 (vehicle.nissan.patrol) 
+WARNING: attempting to destroy an actor that is already dead: Actor 616 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 617 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 619 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 623 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 624 (vehicle.toyota.prius) 
+WARNING: attempting to destroy an actor that is already dead: Actor 625 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 626 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 628 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 630 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 631 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 633 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 635 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 636 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 643 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 644 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 645 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 480 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 483 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 487 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 497 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 520 (vehicle.diamondback.century) 
+
+[1m========= Preparing RouteScenario_18 (repetition 0) =========
+> Setting up the agent[0m
+{}
+10
+[1m> Loading the world[0m
+load
+load
+load
+load
+load
+load
+load
+Base transform is blocking objects  Transform(Location(x=-59.311008, y=-106.639061, z=0.600000), Rotation(pitch=0.000000, yaw=-12.545258, roll=0.000000))
+Base transform is blocking objects  Transform(Location(x=-59.311008, y=-106.639061, z=0.600000), Rotation(pitch=0.000000, yaw=-12.545258, roll=0.000000))
+Base transform is blocking objects  Transform(Location(x=-59.311008, y=-106.639061, z=0.600000), Rotation(pitch=0.000000, yaw=-12.545258, roll=0.000000))
+Actor amount: 120
+[1m> Running the route[0m
+1018
+destory hazard actor: id: 781, type: vehicle.diamondback.century
+destory hazard actor: id: 780, type: vehicle.diamondback.century
+destory hazard actor: id: 931, type: vehicle.dodge.charger_police
+destory hazard actor: id: 948, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 892, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 935, type: vehicle.ford.crown
+destory hazard actor: id: 916, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 905, type: vehicle.audi.etron
+destory hazard actor: id: 900, type: vehicle.audi.etron
+destory hazard actor: id: 953, type: vehicle.toyota.prius
+destory hazard actor: id: 933, type: vehicle.kawasaki.ninja
+destory hazard actor: id: 875, type: vehicle.harley-davidson.low_rider
+destory hazard actor: id: 857, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 865, type: vehicle.seat.leon
+destory hazard actor: id: 901, type: vehicle.seat.leon
+destory hazard actor: id: 965, type: vehicle.ford.crown
+destory hazard actor: id: 872, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 898, type: vehicle.chevrolet.impala
+destory hazard actor: id: 918, type: vehicle.nissan.micra
+destory hazard actor: id: 924, type: vehicle.yamaha.yzf
+destory hazard actor: id: 876, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 886, type: vehicle.seat.leon
+destory hazard actor: id: 867, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 943, type: vehicle.bmw.grandtourer
+destory hazard actor: id: 955, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 952, type: vehicle.volkswagen.t2
+destory hazard actor: id: 962, type: vehicle.mercedes.coupe
+destory hazard actor: id: 938, type: vehicle.nissan.micra
+destory hazard actor: id: 927, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 864, type: vehicle.mini.cooper_s
+destory hazard actor: id: 856, type: vehicle.ford.mustang
+destory hazard actor: id: 945, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 944, type: vehicle.nissan.patrol
+destory hazard actor: id: 950, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 915, type: vehicle.ford.mustang
+destory hazard actor: id: 882, type: vehicle.diamondback.century
+destory hazard actor: id: 941, type: vehicle.mini.cooper_s
+destory hazard actor: id: 859, type: vehicle.volkswagen.t2
+destory hazard actor: id: 913, type: vehicle.citroen.c3
+destory hazard actor: id: 925, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 908, type: vehicle.yamaha.yzf
+destory hazard actor: id: 957, type: vehicle.tesla.model3
+destory hazard actor: id: 868, type: vehicle.citroen.c3
+destory hazard actor: id: 890, type: vehicle.audi.tt
+destory hazard actor: id: 942, type: vehicle.dodge.charger_2020
+destory hazard actor: id: 891, type: vehicle.bh.crossbike
+destory hazard actor: id: 894, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 897, type: vehicle.ford.crown
+destory hazard actor: id: 866, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 877, type: vehicle.volkswagen.t2_2021
+destory hazard actor: id: 902, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 926, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 919, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 893, type: vehicle.vespa.zx125
+destory hazard actor: id: 932, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 923, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 921, type: vehicle.bh.crossbike
+destory hazard actor: id: 873, type: vehicle.mini.cooper_s
+destory hazard actor: id: 954, type: vehicle.tesla.model3
+destory hazard actor: id: 888, type: vehicle.audi.etron
+destory hazard actor: id: 912, type: vehicle.vespa.zx125
+destory hazard actor: id: 883, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 940, type: vehicle.mercedes.coupe
+destory hazard actor: id: 860, type: vehicle.seat.leon
+destory hazard actor: id: 879, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 880, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 960, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 920, type: vehicle.bh.crossbike
+destory hazard actor: id: 958, type: vehicle.ford.crown
+destory hazard actor: id: 939, type: vehicle.seat.leon
+destory hazard actor: id: 904, type: vehicle.yamaha.yzf
+destory hazard actor: id: 903, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 959, type: vehicle.diamondback.century
+destory hazard actor: id: 885, type: vehicle.nissan.micra
+destory hazard actor: id: 934, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 917, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 889, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 974, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 947, type: vehicle.nissan.patrol
+destory hazard actor: id: 914, type: vehicle.vespa.zx125
+destory hazard actor: id: 946, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 863, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 910, type: vehicle.citroen.c3
+destory hazard actor: id: 884, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 909, type: vehicle.tesla.model3
+destory hazard actor: id: 936, type: vehicle.mini.cooper_s
+destory hazard actor: id: 963, type: vehicle.micro.microlino
+destory hazard actor: id: 961, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 928, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 970, type: vehicle.audi.a2
+destory hazard actor: id: 975, type: vehicle.bh.crossbike
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_18 (repetition 0) ------ [92mSUCCESS[0m [1m=========[0m
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-10-09 15:32:50 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-10-09 15:45:28 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 757.76s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 349.6s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.461               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %   │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ [92mSUCCESS[0m │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ [92mSUCCESS[0m │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+ERROR: failed to destroy actor 856 : unable to destroy actor: not found 
+WARNING: attempting to destroy an actor that is already dead: Actor 857 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 859 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 860 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 863 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 864 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 865 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 866 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 867 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 868 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 872 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 873 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 875 (vehicle.harley-davidson.low_rider) 
+WARNING: attempting to destroy an actor that is already dead: Actor 876 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 877 (vehicle.volkswagen.t2_2021) 
+WARNING: attempting to destroy an actor that is already dead: Actor 879 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 880 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 882 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 883 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 884 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 885 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 886 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 888 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 889 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 890 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 891 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 892 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 893 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 894 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 897 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 898 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 900 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 901 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 902 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 903 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 904 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 905 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 908 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 909 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 910 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 912 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 913 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 914 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 915 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 916 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 917 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 918 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 919 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 920 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 921 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 923 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 924 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 925 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 926 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 927 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 928 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 931 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 932 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 933 (vehicle.kawasaki.ninja) 
+WARNING: attempting to destroy an actor that is already dead: Actor 934 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 935 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 936 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 938 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 939 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 940 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 941 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 942 (vehicle.dodge.charger_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 943 (vehicle.bmw.grandtourer) 
+WARNING: attempting to destroy an actor that is already dead: Actor 944 (vehicle.nissan.patrol) 
+WARNING: attempting to destroy an actor that is already dead: Actor 945 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 946 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 947 (vehicle.nissan.patrol) 
+WARNING: attempting to destroy an actor that is already dead: Actor 948 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 950 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 952 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 953 (vehicle.toyota.prius) 
+WARNING: attempting to destroy an actor that is already dead: Actor 954 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 955 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 957 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 958 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 959 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 960 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 961 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 962 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 963 (vehicle.micro.microlino) 
+WARNING: attempting to destroy an actor that is already dead: Actor 965 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 970 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 974 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 975 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 780 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 781 (vehicle.diamondback.century) 
+
+[1m========= Preparing RouteScenario_19 (repetition 0) =========
+> Setting up the agent[0m
+{}
+10
+[1m> Loading the world[0m
+load
+load
+load
+load
+load
+load
+load
+Actor amount: 120
+[1m> Running the route[0m
+1622
+ERROR: failed to destroy actor 1120 : unable to destroy actor: not found 
+destory hazard actor: id: 1176, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 1235, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 1265, type: vehicle.audi.tt
+destory hazard actor: id: 1182, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 1221, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 1258, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 1203, type: vehicle.audi.etron
+destory hazard actor: id: 1154, type: vehicle.ford.mustang
+destory hazard actor: id: 1240, type: vehicle.dodge.charger_2020
+destory hazard actor: id: 1223, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 1159, type: vehicle.harley-davidson.low_rider
+destory hazard actor: id: 1216, type: vehicle.nissan.micra
+destory hazard actor: id: 1161, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 1268, type: vehicle.audi.a2
+destory hazard actor: id: 1197, type: vehicle.diamondback.century
+destory hazard actor: id: 1260, type: vehicle.mercedes.coupe
+destory hazard actor: id: 1218, type: vehicle.bh.crossbike
+destory hazard actor: id: 1165, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 1127, type: vehicle.diamondback.century
+destory hazard actor: id: 1186, type: vehicle.audi.etron
+destory hazard actor: id: 1231, type: vehicle.kawasaki.ninja
+destory hazard actor: id: 1214, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 1220, type: vehicle.dodge.charger_police
+destory hazard actor: id: 1170, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 1181, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 1211, type: vehicle.citroen.c3
+destory hazard actor: id: 1178, type: vehicle.carlamotors.carlacola
+destory hazard actor: id: 1249, type: vehicle.dodge.charger_police
+destory hazard actor: id: 1198, type: vehicle.audi.etron
+destory hazard actor: id: 1206, type: vehicle.yamaha.yzf
+destory hazard actor: id: 1225, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 1183, type: vehicle.nissan.micra
+destory hazard actor: id: 1252, type: vehicle.tesla.model3
+destory hazard actor: id: 1233, type: vehicle.ford.crown
+destory hazard actor: id: 1195, type: vehicle.ford.crown
+destory hazard actor: id: 1255, type: vehicle.tesla.model3
+destory hazard actor: id: 1222, type: vehicle.yamaha.yzf
+destory hazard actor: id: 1155, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 1224, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 1167, type: vehicle.ford.crown
+destory hazard actor: id: 1262, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 1160, type: vehicle.volkswagen.t2
+destory hazard actor: id: 1254, type: vehicle.ford.crown
+destory hazard actor: id: 1196, type: vehicle.chevrolet.impala
+destory hazard actor: id: 1266, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 1157, type: vehicle.volkswagen.t2
+destory hazard actor: id: 1202, type: vehicle.yamaha.yzf
+destory hazard actor: id: 1244, type: vehicle.lincoln.mkz_2017
+destory hazard actor: id: 1194, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 1256, type: vehicle.ford.crown
+destory hazard actor: id: 1264, type: vehicle.vespa.zx125
+destory hazard actor: id: 1247, type: vehicle.micro.microlino
+destory hazard actor: id: 1239, type: vehicle.mini.cooper_s
+destory hazard actor: id: 1248, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 1250, type: vehicle.volkswagen.t2
+destory hazard actor: id: 1164, type: vehicle.carlamotors.firetruck
+destory hazard actor: id: 1177, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 1174, type: vehicle.dodge.charger_police_2020
+destory hazard actor: id: 1208, type: vehicle.citroen.c3
+destory hazard actor: id: 1246, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 1226, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 1168, type: vehicle.chevrolet.impala
+destory hazard actor: id: 1190, type: vehicle.jeep.wrangler_rubicon
+destory hazard actor: id: 1227, type: vehicle.nissan.micra
+destory hazard actor: id: 1257, type: vehicle.diamondback.century
+destory hazard actor: id: 1152, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 1175, type: vehicle.volkswagen.t2_2021
+destory hazard actor: id: 1215, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 1237, type: vehicle.seat.leon
+destory hazard actor: id: 1242, type: vehicle.nissan.patrol
+destory hazard actor: id: 1184, type: vehicle.seat.leon
+destory hazard actor: id: 1267, type: vehicle.micro.microlino
+destory hazard actor: id: 1210, type: vehicle.vespa.zx125
+destory hazard actor: id: 1205, type: vehicle.dodge.charger_police
+destory hazard actor: id: 1259, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 1192, type: vehicle.tesla.cybertruck
+destory hazard actor: id: 1207, type: vehicle.tesla.model3
+destory hazard actor: id: 1179, type: vehicle.audi.a2
+destory hazard actor: id: 1158, type: vehicle.seat.leon
+destory hazard actor: id: 1201, type: vehicle.mercedes.sprinter
+destory hazard actor: id: 1236, type: vehicle.nissan.micra
+destory hazard actor: id: 1162, type: vehicle.mini.cooper_s
+destory hazard actor: id: 1188, type: vehicle.audi.tt
+destory hazard actor: id: 1230, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 1180, type: vehicle.diamondback.century
+destory hazard actor: id: 1189, type: vehicle.bh.crossbike
+destory hazard actor: id: 1228, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 1212, type: vehicle.vespa.zx125
+destory hazard actor: id: 1269, type: vehicle.gazelle.omafiets
+destory hazard actor: id: 1169, type: vehicle.diamondback.century
+destory hazard actor: id: 1232, type: vehicle.mitsubishi.fusorosa
+destory hazard actor: id: 1234, type: vehicle.mini.cooper_s
+destory hazard actor: id: 1153, type: vehicle.mercedes.coupe_2020
+destory hazard actor: id: 1263, type: vehicle.ford.crown
+destory hazard actor: id: 1213, type: vehicle.ford.mustang
+destory hazard actor: id: 1204, type: vehicle.audi.tt
+destory hazard actor: id: 1270, type: vehicle.dodge.charger_police
+destory hazard actor: id: 1238, type: vehicle.mercedes.coupe
+destory hazard actor: id: 1271, type: vehicle.chevrolet.impala
+destory hazard actor: id: 1185, type: vehicle.yamaha.yzf
+destory hazard actor: id: 1199, type: vehicle.seat.leon
+destory hazard actor: id: 1243, type: vehicle.lincoln.mkz_2020
+destory hazard actor: id: 1166, type: vehicle.citroen.c3
+[1m> Stopping the route[0m
+
+[1m========= Results of RouteScenario_19 (repetition 0) ------ [91mFAILURE[0m [1m=========[0m
+
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2023-10-09 15:48:47 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2023-10-09 15:59:03 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 615.88s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 333.05s             │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.541               │
+╘═════════════════════════════════╧═════════════════════╛
+
+╒═══════════════════════╤═════════╤═════════╕
+│ Criterion             │ Result  │ Value   │
+├───────────────────────┼─────────┼─────────┤
+│ RouteCompletionTest   │ [92mSUCCESS[0m │ 100 %   │
+├───────────────────────┼─────────┼─────────┤
+│ OutsideRouteLanesTest │ [92mSUCCESS[0m │ 0 %     │
+├───────────────────────┼─────────┼─────────┤
+│ CollisionTest         │ [91mFAILURE[0m │ 1 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningRedLightTest   │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ RunningStopTest       │ [92mSUCCESS[0m │ 0 times │
+├───────────────────────┼─────────┼─────────┤
+│ InRouteTest           │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ AgentBlockedTest      │ [92mSUCCESS[0m │         │
+├───────────────────────┼─────────┼─────────┤
+│ Timeout               │ [92mSUCCESS[0m │         │
+╘═══════════════════════╧═════════╧═════════╛
+
+[1m> Registering the route statistics[0m
+ERROR: failed to destroy actor 1152 : unable to destroy actor: not found 
+WARNING: attempting to destroy an actor that is already dead: Actor 1153 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1154 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1155 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1157 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1158 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1159 (vehicle.harley-davidson.low_rider) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1160 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1161 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1162 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1164 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1165 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1166 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1167 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1168 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1169 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1170 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1174 (vehicle.dodge.charger_police_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1175 (vehicle.volkswagen.t2_2021) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1176 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1177 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1178 (vehicle.carlamotors.carlacola) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1179 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1180 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1181 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1182 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1183 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1184 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1185 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1186 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1188 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1189 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1190 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1192 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1194 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1195 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1196 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1197 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1198 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1199 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1201 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1202 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1203 (vehicle.audi.etron) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1204 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1205 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1206 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1207 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1208 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1210 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1211 (vehicle.citroen.c3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1212 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1213 (vehicle.ford.mustang) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1214 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1215 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1216 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1218 (vehicle.bh.crossbike) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1220 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1221 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1222 (vehicle.yamaha.yzf) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1223 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1224 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1225 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1226 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1227 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1228 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1230 (vehicle.mercedes.coupe_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1231 (vehicle.kawasaki.ninja) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1232 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1233 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1234 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1235 (vehicle.carlamotors.firetruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1236 (vehicle.nissan.micra) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1237 (vehicle.seat.leon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1238 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1239 (vehicle.mini.cooper_s) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1240 (vehicle.dodge.charger_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1242 (vehicle.nissan.patrol) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1243 (vehicle.lincoln.mkz_2020) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1244 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1246 (vehicle.jeep.wrangler_rubicon) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1247 (vehicle.micro.microlino) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1248 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1249 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1250 (vehicle.volkswagen.t2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1252 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1254 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1255 (vehicle.tesla.model3) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1256 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1257 (vehicle.diamondback.century) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1258 (vehicle.tesla.cybertruck) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1259 (vehicle.mitsubishi.fusorosa) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1260 (vehicle.mercedes.coupe) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1262 (vehicle.lincoln.mkz_2017) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1263 (vehicle.ford.crown) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1264 (vehicle.vespa.zx125) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1265 (vehicle.audi.tt) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1266 (vehicle.mercedes.sprinter) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1267 (vehicle.micro.microlino) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1268 (vehicle.audi.a2) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1269 (vehicle.gazelle.omafiets) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1270 (vehicle.dodge.charger_police) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1271 (vehicle.chevrolet.impala) 
+WARNING: attempting to destroy an actor that is already dead: Actor 1127 (vehicle.diamondback.century) 
+
+[1m========= Preparing RouteScenario_20 (repetition 0) =========
+> Setting up the agent[0m
+{}
+10
+[1m> Loading the world[0m
+load
+load
+load
+load
